@@ -4,8 +4,7 @@
 
 ![PWA](https://img.shields.io/badge/PWA-Ready-7c6df0?style=flat-square) ![Offline](https://img.shields.io/badge/Storage-Local%20Only-3ecf8e?style=flat-square) ![No Backend](https://img.shields.io/badge/Backend-None-fbbf24?style=flat-square) ![License](https://img.shields.io/badge/License-MIT-60a5fa?style=flat-square)
 
----
-Link: - https://rollcallpro.netlify.app/
+
 
 ## ✨ Features
 
@@ -33,7 +32,7 @@ Link: - https://rollcallpro.netlify.app/
 
 ## 🚀 Live Demo
 
-👉 **[Try it here](https://your-deployment-url.netlify.app)** ← replace with your URL
+👉 **[Try it here](https://rollcallpro.netlify.app)** ← replace with your URL 
 
 ---
 
