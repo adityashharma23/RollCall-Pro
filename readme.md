@@ -1,4 +1,4 @@
-# 📊 Addentance Tracker
+# 📊 RollCall Pro
 
 > A smart, offline-first attendance tracker PWA for students — with subject-wise analytics, calendar view, timetable planner, and PDF/Excel export. No account needed. All data saved privately on your device.
 
@@ -74,7 +74,7 @@ Drag and drop the folder at **[netlify.com/drop](https://netlify.com/drop)** —
 
 ## 💾 How Local Storage Works
 
-Addentance Tracker is **100% offline-first**. There is no server, no account, no cloud.
+RollCall Pro is **100% offline-first**. There is no server, no account, no cloud.
 
 ```
 First visit
