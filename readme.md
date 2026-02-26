@@ -24,12 +24,6 @@
 
 ---
 
-## 📸 Screenshots
-
-> Calendar view · Analytics dashboard · Timetable planner · Mobile bottom nav
-
----
-
 ## 🚀 Live Demo
 
 👉 **[Try it here](https://rollcallpro.netlify.app)** ← replace with your URL 
@@ -49,66 +43,6 @@ addentance-tracker/
 ```
 
 > The entire app lives in **one HTML file** — no build tools, no npm, no dependencies to install.
-
----
-
-## ⚡ Quick Start
-
-### Option 1 — Open directly
-Download the repo and open `index.html` in any browser. Done.
-
-### Option 2 — Local server (recommended for PWA features)
-```bash
-# Using Node
-npx serve .
-
-# Using Python
-python -m http.server 3000
-```
-Then visit `http://localhost:3000`
-
-### Option 3 — Deploy instantly
-Drag and drop the folder at **[netlify.com/drop](https://netlify.com/drop)** — live in 10 seconds.
-
----
-
-## 💾 How Local Storage Works
-
-RollCall Pro is **100% offline-first**. There is no server, no account, no cloud.
-
-```
-First visit
-  └── Shows welcome screen → "Open My Tracker"
-      └── If no profile yet → Setup Wizard (name, course, off days)
-          └── App opens → data saved to localStorage
-
-Every visit after
-  └── App boots automatically
-      └── Restores your full attendance history, timetable & profile
-          └── Every change is saved instantly to localStorage
-```
-
-Your data is stored under the key `addentance_tracker_data` in your browser's localStorage. It persists until you clear browser data or click **"Clear All Data"** inside the app.
-
-> ⚠️ **Note:** localStorage is per-browser per-device. Data does not sync across devices. To move data, use the Excel export feature.
-
----
-
-## 📱 Install as Mobile App (PWA)
-
-### Android (Chrome)
-1. Open the app in Chrome
-2. Tap **⋮ Menu → "Add to Home Screen"**
-3. App opens fullscreen like a native app
-
-### iOS (Safari)
-1. Open in Safari
-2. Tap the **Share icon → "Add to Home Screen"**
-3. App launches fullscreen with no browser bar
-
-### Desktop (Chrome / Edge)
-1. Click the **install icon** in the address bar
-2. App opens in its own window
 
 ---
 
@@ -148,63 +82,6 @@ The **Analytics** tab shows:
 
 ### 5. Export Reports
 Click your avatar (top right) → **Export PDF** or **Export Excel**.
-
----
-
-## ⚙️ Configuration
-
-No configuration needed to run. Optional tweaks inside `index.html`:
-
-```javascript
-// Change the attendance warning threshold (default: 75%)
-threshold: 75
-
-// Change the localStorage key (if running multiple instances)
-const STORAGE_KEY = 'addentance_tracker_data';
-```
-
----
-
-## 🌐 Deployment
-
-### Netlify (Easiest)
-```bash
-npm install -g netlify-cli
-netlify deploy --dir . --prod
-```
-Or drag-drop at [netlify.com/drop](https://netlify.com/drop)
-
-### Vercel
-```bash
-npm install -g vercel
-vercel
-```
-
-### GitHub Pages
-1. Push repo to GitHub
-2. Go to **Settings → Pages → Deploy from branch `main`**
-3. Your app is live at `https://yourusername.github.io/repo-name`
-
----
-
-## 🔮 Roadmap
-
-- [ ] Data backup/restore via JSON file download
-- [ ] Multiple profiles (for different semesters)
-- [ ] Attendance goal setting per subject
-- [ ] Push notification reminders
-- [ ] Dark/light theme toggle
-- [ ] Optional Firebase cloud sync
-
----
-
-## 🤝 Contributing
-
-1. Fork the repo
-2. Create a branch: `git checkout -b feature/your-feature`
-3. Commit: `git commit -m "Add your feature"`
-4. Push: `git push origin feature/your-feature`
-5. Open a Pull Request
 
 ---
 
